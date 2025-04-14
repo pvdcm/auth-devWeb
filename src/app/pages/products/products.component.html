@@ -1,2 +1,8 @@
-<h2>Detalhes do Produto</h2>
-<p>Você está vendo o produto de ID: {{ id }}</p>
+<div class="produto-container" *ngIf="produto">
+    <h2>Detalhes do Produto</h2>
+    <img [src]="produto.imagem" [alt]="produto.nome" />
+    <h2>{{ produto.nome }}</h2>
+    <p class="preco">R$ {{ produto.preco }}</p>
+
+    <h2 style="color: red;">Produto indisponivel</h2>
+  </div>

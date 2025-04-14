@@ -17,22 +17,23 @@ export class HomeComponent {
   produtos = [
     {
       id: 1,
-      nome: 'Camiseta Básica',
+      nome: 'Dog Punho',
       preco: 49.90,
-      imagem: 'https://via.placeholder.com/200x200?text=Camiseta'
+      imagem: 'assets/images/image.jpg'
     },
     {
       id: 2,
-      nome: 'Caneca Estilosa',
+      nome: 'Dog joia',
       preco: 29.90,
-      imagem: 'https://via.placeholder.com/200x200?text=Caneca'
+      imagem: 'assets/images/image2.jpg'
     },
     {
       id: 3,
-      nome: 'Boné Casual',
+      nome: 'Dog aponta',
       preco: 39.90,
-      imagem: 'https://via.placeholder.com/200x200?text=Boné'
+      imagem: 'assets/images/image3.jpg'
     }
+
   ];
 
   comprar(produto: any) {
